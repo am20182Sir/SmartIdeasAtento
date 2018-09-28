@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C57358B-B2ED-FA37-2751-8D2E865A8A87" name="Gerar">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tAtendentes_id_usuario" id="2D64B780-ACD7-92C1-D4B5-1423C0C4729D">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9813E0-2681-4648-73E6-545ECB1C0492" referredColumn="5B11859B-AFFC-0F0F-E634-4F95157BB4CD"/>
+</associations>
+</Column>
+<Column name="tAtendentes_id_atendente" id="9CB58EFD-60BE-AFD7-3A59-EA559F5AD0EA">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9813E0-2681-4648-73E6-545ECB1C0492" referredColumn="5107B7F9-CC40-138C-E5B3-BE94D77FCBFD"/>
+</associations>
+</Column>
+<Column name="tRespostasUsuario_id_respUser" id="AEB1BA05-F8CA-B599-0307-3273CFFD1E04">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5F550DC-C930-67E6-E1A6-9897AAD07B40" referredColumn="6700DFB5-C743-C02D-C252-B1C85F0D087C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFC3F0ED-421A-7285-36B9-B15082BEDBEA" name="Gerar_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D64B780-ACD7-92C1-D4B5-1423C0C4729D"/>
+<colUsage columnID="9CB58EFD-60BE-AFD7-3A59-EA559F5AD0EA"/>
+<colUsage columnID="AEB1BA05-F8CA-B599-0307-3273CFFD1E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32E776D-59B8-BCCD-A97C-C7E6C8403042" name="Gerar_tAtendentes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>CCF9BEBD-21F6-676B-3AC9-6ACD1D24B311</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D64B780-ACD7-92C1-D4B5-1423C0C4729D"/>
+<colUsage columnID="9CB58EFD-60BE-AFD7-3A59-EA559F5AD0EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C85C410-B4A5-D22E-2B20-8CA8B2BCE7B3" name="Gerar_tRespostasUsuario_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>CCF9BEBD-21F6-676B-3AC9-6ACD1D24B311</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB1BA05-F8CA-B599-0307-3273CFFD1E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

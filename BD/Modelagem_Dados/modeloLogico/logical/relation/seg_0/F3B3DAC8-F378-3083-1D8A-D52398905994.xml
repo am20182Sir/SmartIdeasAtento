@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Referir" directorySegmentName="seg_0" id="F3B3DAC8-F378-3083-1D8A-D52398905994">
+<createdBy>User</createdBy>
+<createdTime>2018-09-15 02:00:17 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<sourcePk>65EEA5CA-E0B5-B8CC-3F3F-960C738C68F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1308C1B-E1B2-560B-89B8-3AAE9FCF773F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B68F65DB-C24B-AC25-2BC6-8F55F140FD02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

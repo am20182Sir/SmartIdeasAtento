@@ -1,0 +1,9 @@
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\bin\Debug\netstandard2.0\Negocio.deps.json
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\bin\Debug\netstandard2.0\Negocio.dll
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\bin\Debug\netstandard2.0\Negocio.pdb
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.csprojAssemblyReference.cache
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.AssemblyInfo.cs
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.dll
+C:\Users\logonrmlocal\Desktop\QuizA\Negocio\obj\Debug\netstandard2.0\Negocio.pdb

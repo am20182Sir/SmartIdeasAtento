@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A37B6FEA-20C3-29D1-E75C-57A50CDEB208" name="inserir">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tLiderEquipe_id_usuario" id="F717964A-EC83-47C3-634C-734035A8B0BE">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E322DB0E-3CAF-BEC8-2F31-086F95C92126" referredColumn="D663D772-8862-4EFF-A5B2-C229591E161A"/>
+</associations>
+</Column>
+<Column name="tLiderEquipe_id_liderEq" id="9626C8BB-3460-FB10-9845-DC1B410896FF">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E322DB0E-3CAF-BEC8-2F31-086F95C92126" referredColumn="8D34B364-2B3B-8B6A-85D7-77BFBFBEB583"/>
+</associations>
+</Column>
+<Column name="tConteudos_id_conteudo" id="BF153A8D-B558-C483-A48C-FE400FB32900">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D354C00-0371-6FBC-E4AD-44C9937FF35F" referredColumn="0B9984A2-3A8D-CE21-66C3-9747B0C7F825"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77257637-CACB-5F11-77BE-BF453FD18275" name="inserir_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F717964A-EC83-47C3-634C-734035A8B0BE"/>
+<colUsage columnID="9626C8BB-3460-FB10-9845-DC1B410896FF"/>
+<colUsage columnID="BF153A8D-B558-C483-A48C-FE400FB32900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01328035-D798-387C-0DA1-CDF3FC2CA224" name="inserir_tLiderEquipe_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>48EE7D96-FD81-90F3-58DB-DFCDD9A37FC2</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F717964A-EC83-47C3-634C-734035A8B0BE"/>
+<colUsage columnID="9626C8BB-3460-FB10-9845-DC1B410896FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC8AAF5-F951-AE9F-C6E0-C384EF31A73E" name="inserir_tConteudos_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>48EE7D96-FD81-90F3-58DB-DFCDD9A37FC2</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF153A8D-B558-C483-A48C-FE400FB32900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

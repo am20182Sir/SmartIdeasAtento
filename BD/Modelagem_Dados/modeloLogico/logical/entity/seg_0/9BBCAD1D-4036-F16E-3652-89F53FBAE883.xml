@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BBCAD1D-4036-F16E-3652-89F53FBAE883" name="tConteudos">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:04:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conteudo" id="17203630-D981-C538-D59A-A2DF785D25D6">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:05:07 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="corpoConteudo" id="C5914AF9-25D3-8F25-D29E-79A0A435F693">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:05:19 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT036</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imgConteudo" id="7E65BFBB-2EE3-94BE-36EA-4B7D3924DB2B">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:05:53 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_questionario" id="8116A3C9-EA1F-1C04-4045-39DB3D9B1198">
+<createdBy>User</createdBy>
+<createdTime>2018-09-15 01:49:11 UTC</createdTime>
+<generatorID>951B7169-4EDE-BB8E-E8E0-AB2E77A3E5C1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<referedAttribute>C4969520-5197-7A08-7ED0-F0BCE0401A5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27A7789E-8BE2-E923-36B2-0872B52F98A7" name="tConteudos PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:05:18 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17203630-D981-C538-D59A-A2DF785D25D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

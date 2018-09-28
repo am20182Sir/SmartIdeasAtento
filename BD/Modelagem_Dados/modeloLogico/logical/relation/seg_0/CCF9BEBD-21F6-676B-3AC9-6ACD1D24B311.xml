@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gerar" directorySegmentName="seg_0" id="CCF9BEBD-21F6-676B-3AC9-6ACD1D24B311">
+<createdBy>User</createdBy>
+<createdTime>2018-09-15 01:59:16 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>478E20A9-6400-18A6-70FB-EA1232D462C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B68F65DB-C24B-AC25-2BC6-8F55F140FD02</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

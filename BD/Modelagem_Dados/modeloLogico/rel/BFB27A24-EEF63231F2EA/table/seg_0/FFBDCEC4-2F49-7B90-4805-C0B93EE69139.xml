@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFBDCEC4-2F49-7B90-4805-C0B93EE69139" name="tQuestionario">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>A1308C1B-E1B2-560B-89B8-3AAE9FCF773F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_questionario" id="A3AA2D2C-03F0-8E59-3494-DF654551E92B">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>C4969520-5197-7A08-7ED0-F0BCE0401A5E</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtde_perguntas" id="4A294462-13F4-6990-9B98-BD4515FBB13D">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>5BB8D6AE-6F41-68C3-D9B2-90741F4209D2</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tConteudos_id_conteudo" id="6E269E91-C980-9F9E-7828-243EF4670147">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>9C9176E2-4C14-6ABD-0AD5-9A082CA0EECF</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40BA501F-26B3-860F-8E09-1960463AF5E7" referredColumn="0B9984A2-3A8D-CE21-66C3-9747B0C7F825"/>
+</associations>
+</Column>
+<Column name="titulo" id="7F051CDE-9331-03B3-4DCD-B71FF55A2C6C">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>A60ABCFF-8B46-FFFD-CA4F-F8E4752466A8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="857D35B6-9D96-8881-2EC3-F3C67EE2F7C5" name="tQuestionario_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>65EEA5CA-E0B5-B8CC-3F3F-960C738C68F3</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3AA2D2C-03F0-8E59-3494-DF654551E92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C219CB8-3654-A782-8509-5DD81E43AD41" name="tQuestionario__IDX">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>951B7169-4EDE-BB8E-E8E0-AB2E77A3E5C1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6E269E91-C980-9F9E-7828-243EF4670147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B1322FB-B1BF-D604-06C2-B17928A7B160" name="tQuestionario_tConteudos_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>951B7169-4EDE-BB8E-E8E0-AB2E77A3E5C1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E269E91-C980-9F9E-7828-243EF4670147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

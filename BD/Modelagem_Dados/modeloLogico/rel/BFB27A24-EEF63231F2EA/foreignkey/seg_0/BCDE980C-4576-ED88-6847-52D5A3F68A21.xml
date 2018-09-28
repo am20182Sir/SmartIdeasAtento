@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCDE980C-4576-ED88-6847-52D5A3F68A21" containerWithKeyObject="1038DD4C-1BA0-2BC0-ABC3-A5EAA2A16E8D" localFKIndex="293A6F41-EA63-CE3A-E554-3FE7888A3A72" name="faz_tAtendentes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>F0FC714A-4EDD-87FE-D5B7-50E883C037F8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tAtendentes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF2798C1-FF0D-554A-B455-B18FD54F8C4E</referredTableID>
+<keyObject>AB0FC890-228F-3783-F02A-588C7757CF8C</keyObject>
+<referredKeyID>AB0FC890-228F-3783-F02A-588C7757CF8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario,id_atendente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

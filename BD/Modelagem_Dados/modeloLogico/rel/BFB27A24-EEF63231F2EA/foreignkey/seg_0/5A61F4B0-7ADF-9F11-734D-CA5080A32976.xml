@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A61F4B0-7ADF-9F11-734D-CA5080A32976" containerWithKeyObject="1038DD4C-1BA0-2BC0-ABC3-A5EAA2A16E8D" localFKIndex="E2E87DA5-2679-6AF2-3B3D-115A614F496A" name="faz_tSugestoes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>F0FC714A-4EDD-87FE-D5B7-50E883C037F8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tSugestoes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C738A502-979F-5A01-5B0C-5658284162E1</referredTableID>
+<keyObject>D364C976-BE27-5A83-E727-4A41F013CE67</keyObject>
+<referredKeyID>D364C976-BE27-5A83-E727-4A41F013CE67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Sugestao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

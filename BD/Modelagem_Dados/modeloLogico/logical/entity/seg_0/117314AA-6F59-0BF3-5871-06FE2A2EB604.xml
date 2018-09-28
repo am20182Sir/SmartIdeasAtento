@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="117314AA-6F59-0BF3-5871-06FE2A2EB604" name="tPerguntas">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 20:56:25 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pergunta" id="BB9E8E9F-2BD8-7A48-CFD6-2C5BEE4413D8">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 20:56:38 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enunciado" id="1E82DB45-E76F-F3C6-1595-11A633653BC1">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 20:56:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipoPerg" id="AB7A1724-AE03-8CE9-6F6B-13C437578228">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 20:57:39 UTC</createdTime>
+<generatorID>B4DB8B8B-2773-8C12-AA07-6F40F43A110F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E879B10-AC8D-851F-6496-EBAD6BB52757</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_questionario" id="73A7012A-CE6D-62CE-6D67-3DAD98215E3C">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:00:30 UTC</createdTime>
+<generatorID>E7E9F2C7-0558-990C-5D54-6C7E4C8ABF82</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<referedAttribute>C4969520-5197-7A08-7ED0-F0BCE0401A5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_resposta" id="CD4556D6-373F-0EF0-1DC0-B122125968D1">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:11:00 UTC</createdTime>
+<generatorID>20319D72-4AE5-B06A-B2B4-CC7DF1103BCE</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<referedAttribute>0842BDFC-F554-D988-ECCE-93434F4478C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E83100C-BF6A-9324-46F9-4C323D45FF3D" name="tPerguntas PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 20:56:52 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB9E8E9F-2BD8-7A48-CFD6-2C5BEE4413D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

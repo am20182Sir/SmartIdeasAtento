@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="visualizar" directorySegmentName="seg_0" id="3E2DA218-C1F7-CF1D-670B-5B07908DA8F6">
+<createdBy>User</createdBy>
+<createdTime>2018-09-15 01:47:34 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>478E20A9-6400-18A6-70FB-EA1232D462C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BBCAD1D-4036-F16E-3652-89F53FBAE883</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

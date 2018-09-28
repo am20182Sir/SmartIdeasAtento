@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1038DD4C-1BA0-2BC0-ABC3-A5EAA2A16E8D" name="faz">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tAtendentes_id_usuario" id="8AAF4D58-4044-7E36-62E4-D07EBACAD02C">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCDE980C-4576-ED88-6847-52D5A3F68A21" referredColumn="5B11859B-AFFC-0F0F-E634-4F95157BB4CD"/>
+</associations>
+</Column>
+<Column name="tAtendentes_id_atendente" id="D3D3AFA8-CC1B-310C-A649-D7003A5DBEE9">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCDE980C-4576-ED88-6847-52D5A3F68A21" referredColumn="5107B7F9-CC40-138C-E5B3-BE94D77FCBFD"/>
+</associations>
+</Column>
+<Column name="tSugestoes_id_Sugestao" id="7EDE1783-E282-C753-BFEE-CCFF4E58800B">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A61F4B0-7ADF-9F11-734D-CA5080A32976" referredColumn="B37B6315-8738-B798-4E2C-A6B4BD781610"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ADF2875-EC20-66F7-F939-8EAA282BB6B1" name="faz_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AAF4D58-4044-7E36-62E4-D07EBACAD02C"/>
+<colUsage columnID="D3D3AFA8-CC1B-310C-A649-D7003A5DBEE9"/>
+<colUsage columnID="7EDE1783-E282-C753-BFEE-CCFF4E58800B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="293A6F41-EA63-CE3A-E554-3FE7888A3A72" name="faz_tAtendentes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>F0FC714A-4EDD-87FE-D5B7-50E883C037F8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AAF4D58-4044-7E36-62E4-D07EBACAD02C"/>
+<colUsage columnID="D3D3AFA8-CC1B-310C-A649-D7003A5DBEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2E87DA5-2679-6AF2-3B3D-115A614F496A" name="faz_tSugestoes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>F0FC714A-4EDD-87FE-D5B7-50E883C037F8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EDE1783-E282-C753-BFEE-CCFF4E58800B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

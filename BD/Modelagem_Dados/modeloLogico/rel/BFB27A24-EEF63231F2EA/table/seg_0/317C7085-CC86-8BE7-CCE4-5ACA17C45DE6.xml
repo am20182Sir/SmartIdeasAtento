@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="317C7085-CC86-8BE7-CCE4-5ACA17C45DE6" name="tRH">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>40B6626D-DD16-7C81-328F-EDFCD8B65739</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="5A21B17C-90C7-B313-C7FC-E7C4B1907BDF">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>23123FFF-1DE3-AE51-3C7D-71520F0D4362</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C5216D-6249-C14F-93DA-CAB79CF10AA5" referredColumn="0ECAE4A9-7F79-2A2C-6B59-02BE61823B64"/>
+</associations>
+</Column>
+<Column name="id_rh" id="81D71024-37BF-4C73-E5E2-1E6E20914706">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>3B7DFA49-86E1-5108-DFD4-69B4386D723B</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C5216D-6249-C14F-93DA-CAB79CF10AA5" referredColumn="72B2BC99-2D72-A7FF-05F5-6B81746ACA8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDE6E2BF-C2BB-E253-1A9A-C7786F5D0C3D" name="tRH_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>9F0F6651-5763-72A2-C542-324C6C3418FE</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A21B17C-90C7-B313-C7FC-E7C4B1907BDF"/>
+<colUsage columnID="81D71024-37BF-4C73-E5E2-1E6E20914706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48230677-2D60-1BAC-945A-750B59CE3196" name="tRH_tUsuarios_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>50D3AD8D-766B-8EA0-2A7E-88CAAA3C2873</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A21B17C-90C7-B313-C7FC-E7C4B1907BDF"/>
+<colUsage columnID="81D71024-37BF-4C73-E5E2-1E6E20914706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

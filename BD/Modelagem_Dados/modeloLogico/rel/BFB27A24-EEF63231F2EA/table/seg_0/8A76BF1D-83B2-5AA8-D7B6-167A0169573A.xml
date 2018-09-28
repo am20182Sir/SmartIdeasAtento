@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A76BF1D-83B2-5AA8-D7B6-167A0169573A" name="tPerguntas">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>117314AA-6F59-0BF3-5871-06FE2A2EB604</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pergunta" id="E47141FB-20ED-95B6-BD7E-8A02A5A716AF">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>BB9E8E9F-2BD8-7A48-CFD6-2C5BEE4413D8</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="2126FEF4-1809-7FE3-DAA9-0A72F98CF3C3">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>1E82DB45-E76F-F3C6-1595-11A633653BC1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tTipoPergunta_id_tipoPerg" id="AC98F683-9D27-352E-61D3-D3ACD893541F">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>AB7A1724-AE03-8CE9-6F6B-13C437578228</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="526AF023-2855-A6EA-C64B-A2855C032EFB" referredColumn="76DA0A67-AA66-74D1-C712-90AC059B052F"/>
+</associations>
+</Column>
+<Column name="tQuestionario_id_questionario" id="E6095C7B-8132-0C20-FB1E-ACA75035FF69">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>73A7012A-CE6D-62CE-6D67-3DAD98215E3C</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5126BD60-FF1A-D4E3-5E76-93A93A2F6FE4" referredColumn="A3AA2D2C-03F0-8E59-3494-DF654551E92B"/>
+</associations>
+</Column>
+<Column name="tRespostas_id_resposta" id="1701F0B4-4234-E547-1FD7-C90E57A11223">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>CD4556D6-373F-0EF0-1DC0-B122125968D1</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66B7E652-2235-0408-D4B5-A8DFACE678FF" referredColumn="7601D83E-E307-EDA4-9A86-5A24CF6733FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92FEFCA6-4CEE-09AC-1500-FFC8A522240F" name="tPerguntas_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:21 UTC</createdTime>
+<generatorID>7E83100C-BF6A-9324-46F9-4C323D45FF3D</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E47141FB-20ED-95B6-BD7E-8A02A5A716AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D1373BA-A892-C50E-900C-9643699CEBBA" name="tPerguntas__IDX">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>20319D72-4AE5-B06A-B2B4-CC7DF1103BCE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1701F0B4-4234-E547-1FD7-C90E57A11223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F417E87-BAD2-BDB4-0FB8-B8848D4C9EE7" name="tPerguntas_tQuestionario_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>E7E9F2C7-0558-990C-5D54-6C7E4C8ABF82</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6095C7B-8132-0C20-FB1E-ACA75035FF69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8E5F765-D2D8-AF9B-7D0E-9552DF8B1099" name="tPerguntas_tTipoPergunta_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>B4DB8B8B-2773-8C12-AA07-6F40F43A110F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC98F683-9D27-352E-61D3-D3ACD893541F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56CA84CD-A16B-FF09-AA41-43A778D70DD7" name="tPerguntas_tRespostas_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>20319D72-4AE5-B06A-B2B4-CC7DF1103BCE</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1701F0B4-4234-E547-1FD7-C90E57A11223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

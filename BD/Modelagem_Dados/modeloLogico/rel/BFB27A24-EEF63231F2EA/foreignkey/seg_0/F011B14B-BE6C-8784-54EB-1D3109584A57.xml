@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F011B14B-BE6C-8784-54EB-1D3109584A57" containerWithKeyObject="A91E0B64-2DCA-9F22-79DB-E4C93F0B78C8" localFKIndex="C0A0E7BE-C947-21D4-7253-D7E2C09D75D6" name="visualizar_tConteudos_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>3E2DA218-C1F7-CF1D-670B-5B07908DA8F6</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tConteudos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73755922-C4C3-5A8F-BA92-41C956C9E763</referredTableID>
+<keyObject>E1772E83-5E5A-F070-256C-9F6A222108EE</keyObject>
+<referredKeyID>E1772E83-5E5A-F070-256C-9F6A222108EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_conteudo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

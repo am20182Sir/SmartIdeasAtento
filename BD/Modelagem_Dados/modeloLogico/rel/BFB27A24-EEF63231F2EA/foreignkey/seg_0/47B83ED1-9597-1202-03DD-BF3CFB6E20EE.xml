@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47B83ED1-9597-1202-03DD-BF3CFB6E20EE" containerWithKeyObject="AA07AEEB-86F4-244C-CCAA-C1D214F07E45" localFKIndex="F558AEB0-B9FC-3B39-CAAB-3A4D23453085" name="Responder_tAtendentes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>27054882-EAD0-1E21-8413-B95C6CEE64EC</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tAtendentes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF2798C1-FF0D-554A-B455-B18FD54F8C4E</referredTableID>
+<keyObject>AB0FC890-228F-3783-F02A-588C7757CF8C</keyObject>
+<referredKeyID>AB0FC890-228F-3783-F02A-588C7757CF8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario,id_atendente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

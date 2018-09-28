@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compoe" directorySegmentName="seg_0" id="E7E9F2C7-0558-990C-5D54-6C7E4C8ABF82">
+<createdBy>User</createdBy>
+<createdTime>2018-09-08 21:00:30 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<engineerTo>
+<item key="BFB27A24-7051-82C5-5CC0-EEF63231F2EA" value="true"/>
+</engineerTo>
+<sourcePk>65EEA5CA-E0B5-B8CC-3F3F-960C738C68F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1308C1B-E1B2-560B-89B8-3AAE9FCF773F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>117314AA-6F59-0BF3-5871-06FE2A2EB604</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="657D6522-0D4A-8EE7-9DC0-69DCB87D1E6C" containerWithKeyObject="51A6C12C-700A-D2CB-EB5A-8E2B1BF78F8B" localFKIndex="A09C7130-19FA-C76C-6ADB-D41EFC542DB3" name="cadastrar2_tLiderEquipe_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>80D37A0A-34F2-21E4-0907-FFCA7322961F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tLiderEquipe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A09D2094-4419-235A-DBE5-C914102908D1</referredTableID>
+<keyObject>2493685A-0FDB-B78A-468A-95CEF3DC64AC</keyObject>
+<referredKeyID>2493685A-0FDB-B78A-468A-95CEF3DC64AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario,id_liderEq</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA07AEEB-86F4-244C-CCAA-C1D214F07E45" name="Responder">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tAtendentes_id_usuario" id="28FB2112-BAF8-9B36-7404-512A30565F48">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47B83ED1-9597-1202-03DD-BF3CFB6E20EE" referredColumn="5B11859B-AFFC-0F0F-E634-4F95157BB4CD"/>
+</associations>
+</Column>
+<Column name="tAtendentes_id_atendente" id="85D447B5-2EBC-40AF-6FF8-D5329946E6D2">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47B83ED1-9597-1202-03DD-BF3CFB6E20EE" referredColumn="5107B7F9-CC40-138C-E5B3-BE94D77FCBFD"/>
+</associations>
+</Column>
+<Column name="tQuestionario_id_questionario" id="AAD91AA5-6552-62BF-511E-7A4AD7C4DF32">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="484B5297-4982-6E97-C1E5-A86981F29D55" referredColumn="A3AA2D2C-03F0-8E59-3494-DF654551E92B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D311A1EF-08A0-E246-06EB-62E4AE2B8B7E" name="Responder_PK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FB2112-BAF8-9B36-7404-512A30565F48"/>
+<colUsage columnID="85D447B5-2EBC-40AF-6FF8-D5329946E6D2"/>
+<colUsage columnID="AAD91AA5-6552-62BF-511E-7A4AD7C4DF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F558AEB0-B9FC-3B39-CAAB-3A4D23453085" name="Responder_tAtendentes_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>27054882-EAD0-1E21-8413-B95C6CEE64EC</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FB2112-BAF8-9B36-7404-512A30565F48"/>
+<colUsage columnID="85D447B5-2EBC-40AF-6FF8-D5329946E6D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5C3BB39-EB99-EDC6-FC61-7420D604F02F" name="Responder_tQuestionario_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>27054882-EAD0-1E21-8413-B95C6CEE64EC</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAD91AA5-6552-62BF-511E-7A4AD7C4DF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

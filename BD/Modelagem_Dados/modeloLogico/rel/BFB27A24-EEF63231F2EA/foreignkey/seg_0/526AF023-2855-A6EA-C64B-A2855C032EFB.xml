@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="526AF023-2855-A6EA-C64B-A2855C032EFB" containerWithKeyObject="8A76BF1D-83B2-5AA8-D7B6-167A0169573A" localFKIndex="F8E5F765-D2D8-AF9B-7D0E-9552DF8B1099" name="tPerguntas_tTipoPergunta_FK">
+<createdBy>User</createdBy>
+<createdTime>2018-09-28 22:45:22 UTC</createdTime>
+<generatorID>B4DB8B8B-2773-8C12-AA07-6F40F43A110F</generatorID>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>tTipoPergunta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8570570-7B6C-3B10-63CE-EE674180E7FF</referredTableID>
+<keyObject>E499BB67-3DCC-B890-CBFD-4DA2E15626A2</keyObject>
+<referredKeyID>E499BB67-3DCC-B890-CBFD-4DA2E15626A2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tipoPerg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
