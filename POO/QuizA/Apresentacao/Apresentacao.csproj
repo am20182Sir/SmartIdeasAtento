@@ -73,6 +73,8 @@
     <Content Include="Framework\js\materialize.min.js" />
     <Content Include="Framework\js\vue.js" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Quizza morettis.png" />
+    <Content Include="QuizA\index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +82,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuizA\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuizA\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -91,9 +100,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="MasterPage\" />
-    <Folder Include="QuizA\" />
+    <Folder Include="QuizA\AdminRH\" />
+    <Folder Include="QuizA\Atendente\" />
+    <Folder Include="QuizA\LiderEquipe\" />
     <Folder Include="Scripts\" />
     <Folder Include="Styles\" />
   </ItemGroup>
