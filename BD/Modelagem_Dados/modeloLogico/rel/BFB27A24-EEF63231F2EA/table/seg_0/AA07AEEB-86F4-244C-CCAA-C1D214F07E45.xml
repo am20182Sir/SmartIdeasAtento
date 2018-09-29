@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA07AEEB-86F4-244C-CCAA-C1D214F07E45" name="Responder">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA07AEEB-86F4-244C-CCAA-C1D214F07E45" name="tResponderQuestionario">
 <createdBy>User</createdBy>
 <createdTime>2018-09-28 22:45:22 UTC</createdTime>
 <ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>responder</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

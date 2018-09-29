@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A91E0B64-2DCA-9F22-79DB-E4C93F0B78C8" name="visualizar">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A91E0B64-2DCA-9F22-79DB-E4C93F0B78C8" name="tVisualizarConteudos">
 <createdBy>User</createdBy>
 <createdTime>2018-09-28 22:45:22 UTC</createdTime>
 <ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>visualizar</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1038DD4C-1BA0-2BC0-ABC3-A5EAA2A16E8D" name="faz">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1038DD4C-1BA0-2BC0-ABC3-A5EAA2A16E8D" name="tFazSugestao">
 <createdBy>User</createdBy>
 <createdTime>2018-09-28 22:45:22 UTC</createdTime>
 <ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>faz</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

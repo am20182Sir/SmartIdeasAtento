@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A37B6FEA-20C3-29D1-E75C-57A50CDEB208" name="inserir">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A37B6FEA-20C3-29D1-E75C-57A50CDEB208" name="tInserirConteudos">
 <createdBy>User</createdBy>
 <createdTime>2018-09-28 22:45:22 UTC</createdTime>
 <ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>inserir</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
